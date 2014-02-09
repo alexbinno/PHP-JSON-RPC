@@ -1,0 +1,12 @@
+{
+    "name": "alexbinno/php-json-rpc",
+    "type": "library",
+    "homepage": "https://github.com/alexbinno/php-json-rpc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Binno",
+            "homepage": "http://alexbinno.com"
+        }
+    ]
+}
