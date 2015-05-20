@@ -7,10 +7,10 @@ A PHP JSON-RPC client/server implementation compatible with JSON-RPC 1.0 and 2.0
 ```php
 require_once('JsonRpcClient.php');
 
-$example = new JsonRpcClient('http://username:password@address:port/');
+$car = new JsonRpcClient('http://username:password@address:port/');
 
 try {
-	$example->servermethod()
+	$car->drive()
 }
 catch (Exception $e) { 
     echo $e->getMessage();
