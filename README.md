@@ -32,3 +32,7 @@ $server = new Car();
 
 JsonRpcServer::handle($server);
 ```
+
+## License
+
+Distributed under the MIT license.
