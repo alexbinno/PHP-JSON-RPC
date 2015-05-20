@@ -150,10 +150,6 @@ class JsonRpcClient {
 		$curl = curl_init($this->url);
 		$options = array(
 			CURLOPT_RETURNTRANSFER => true,
-			//CURLOPT_FOLLOWLOCATION => true,
-			//CURLOPT_MAXREDIRS => 10,
-			
-			
 			CURLOPT_HTTPHEADER => array('Content-type: application/json'),
 			CURLOPT_POST => true,
 			CURLOPT_POSTFIELDS => $request_json,
